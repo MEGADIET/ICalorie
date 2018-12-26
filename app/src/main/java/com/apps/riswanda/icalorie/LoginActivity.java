@@ -59,6 +59,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(!inputEmail.getText().toString().isEmpty() && !inputKatasandi.getText().toString().isEmpty()) {
                     checkLogin();
+
                 }
                 if(inputEmail.getText().toString().isEmpty()){
                     inputEmail.setError("Email tidak boleh kosong!");
